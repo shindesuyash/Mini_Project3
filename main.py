@@ -6,7 +6,7 @@ from portfolio import Portfolio
 from utils import clean_text
 
 def create_streamlit_app(llm, portfolio, clean_text):
-    st.title("Cold Mail Generator")
+    st.title("Glacier Outreach")
     url_input = st.text_input("Enter a URL:", value="https://jobs.nike.com/job/R-49969")
     submit_button = st.button("Submit")
 
